@@ -2,6 +2,7 @@
 
 * Студент: [Виталий Макаров](https://up.htmlacademy.ru/htmlcss/39/user/2214357).
 * Наставник: [Ольга Ветер](https://htmlacademy.ru/profile/id73199).
+* Сайт: [Мой проект Седона](https://vitali3207.github.io/2214357-sedona-39/).
 
 ---
 
