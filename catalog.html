@@ -113,9 +113,11 @@
               <div class="price-wrapper">
               <label class="from">
                 <input type="number" class="catalog-filter-from" name="min-cost" min="0" max="9000" value="0" required>
+                <span class="text-from">от</span>
               </label>
               <label class="to">
                 <input type="number" class="catalog-filter-to" name="max-cost" min="0" max="9000" value="9000" required>
+                <span class="text-to">до</span>
               </label>
             </div>
             </fieldset>
@@ -137,7 +139,7 @@
             <option class="sorting-text" value="cheap">Сначала дешевые</option>
           </select>
           <ul class="button button-cards">
-            <li class="button button-cards-item">
+            <li class="button ">
               <a class="button button-small-cards" href="#">
                 <span class="visually-hidden">Маленькие карточки</span>
               </a>
@@ -162,8 +164,9 @@
             <span class="catalog-card-price">От 4000 ₽</span>
             <a class="button-details" href="#">Подробнее</a>
             <a class="button-favorites" href="#">В избранное</a>
-            <div class="stars-4 stars"></div>
+            <div class="stars-4 stars">
             <span class="visually-hidden">Звёзды</span>
+            </div>
             <p class="catalog-card-rating">Рейтинг: 8,5</p>
           </li>
           <li class="catalog-card-item">
@@ -173,8 +176,9 @@
             <span class="catalog-card-price">От 5000 ₽</span>
             <a class="button-details" href="#">Подробнее</a>
             <a class="button-favorites-active" href="#">В избранном</a>
-            <div class="stars-4 stars"></div>
+            <div class="stars-4 stars">
             <span class="visually-hidden">Звёзды</span>
+            </div>
             <p class="catalog-card-rating">Рейтинг: 9,2</p>
           </li>
           <li class="catalog-card-item">
@@ -184,8 +188,9 @@
             <span class="catalog-card-price">От 2500 ₽</span>
             <a class="button-details" href="#">Подробнее</a>
             <a class="button-favorites" href="#">В избранное</a>
-            <div class="stars-3 stars"></div>
+            <div class="stars-3 stars">
             <span class="visually-hidden">Звёзды</span>
+            </div>
             <p class="catalog-card-rating">Рейтинг: 6,9</p>
           </li>
           <li class="catalog-card-item">
@@ -196,8 +201,9 @@
             <span class="catalog-card-price">От 1500 ₽</span>
             <a class="button-details" href="#">Подробнее</a>
             <a class="button-favorites" href="#">В избранное</a>
-            <div class="stars-2 stars"></div>
+            <div class="stars-2 stars">
             <span class="visually-hidden">Звёзды</span>
+            </div>
             <p class="catalog-card-rating">Рейтинг: 5,0</p>
           </li>
         </ul>
@@ -238,24 +244,24 @@
     <footer class="page-footer">
       <ul class="footer-social-list">
         <li class="footer-social-item">
-          <a class="button vk" href="https://vk.com/htmlacademy">
+          <a class="button-social vk" href="https://vk.com/htmlacademy">
             <span class="visually-hidden">Вконтакте</span>
           </a>
         </li>
         <li class="footer-social-item">
-          <a class="button telegram" href="https://t.me/htmlacademy">
+          <a class="button-social telegram" href="https://t.me/htmlacademy">
             <span class="visually-hidden">Telegram</span>
           </a>
         </li>
         <li class="footer-social-item">
-          <a class="button youtube" href="https://www.youtube.com/user/htmlacademyru">
+          <a class="button-social youtube" href="https://www.youtube.com/user/htmlacademyru">
             <span class="visually-hidden">Youtube</span>
           </a>
         </li>
       </ul>
       <a class="footer-phone" href="tel:88128121212">+7 (812) 812-12-12</a>
       <a class="footer-logo" href="https://htmlacademy.ru/">
-        <img class="footer-logo" src="images/svg/logo-footer.svg" width="114" height="32"
+        <img class="footer-logo-img" src="images/svg/logo-footer.svg" width="114" height="32"
           alt="Логотип компании htmlacademy">
       </a>
     </footer>
