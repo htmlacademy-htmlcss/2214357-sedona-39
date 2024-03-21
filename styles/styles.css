@@ -251,6 +251,9 @@ body {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
+  margin: 0;
+  margin-top: 16px;
+  margin-left: -3px;
 
 }
 
@@ -536,7 +539,7 @@ body {
 
 .field {
   width: 452px;
-  padding: 14px 20px;
+  padding: 14px 21px;
   font-size: 18px;
   line-height: 24px;
   background-color: #F2F2F2;
@@ -643,7 +646,7 @@ body {
 
 .breadcrumbs-link-hotels {
   display: block;
-  margin-left: 30px;
+  margin-left: 28px;
   font-size: 16px;
   line-height: 21px;
   color: #FFFFFF;
@@ -674,7 +677,7 @@ body {
   align-items: center;
   width: 190px;
   margin-top: 56px;
-  margin-left: 70px;
+  margin-left: 72px;
 }
 
 .catalog-filter-group {
@@ -707,6 +710,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
+  padding: 0;
   text-align: left;
   color: #FFFFFF;
   margin-bottom: 32px;
@@ -808,7 +812,7 @@ body {
 
 .catalog-filter-from {
   width: 143px;
-  padding: 12px 20px;
+  padding: 12px 21px;
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
@@ -894,7 +898,7 @@ body {
 
 .toggle-max {
   top: -8px;
-  left: 210px;
+  left: 207px;
 }
 
 .range-toggle:focus {
@@ -977,7 +981,7 @@ body {
 .sorting {
   width: 1060px;
   height: 49px;
-  margin: 0 70px 40px 70px;
+  margin: 0 70px 38px 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1028,22 +1032,22 @@ select:focus {
   margin: 0;
 }
 
-.button-toggle {
+.button-cards-list {
   width: 48px;
   height: 48px;
 }
 
 .button-small-cards {
-  width: 16px;
-  height: 14px;
+  width: 48px;
+  height: 48px;
   background-image: url("../images/svg/variant-tile.svg");
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 4px;
   border: 2px solid #000000;
-  padding: 14px 12px 14px 12px;
   display: inline-block;
   margin-right: 8px;
+  box-sizing: border-box;
 }
 
 .button-small-cards:hover {
@@ -1063,16 +1067,16 @@ select:focus {
 }
 
 .button-big-cards {
-  width: 16px;
-  height: 14px;
+  width: 48px;
+  height: 48px;
   background-image: url("../images/svg/variant-slideshow.svg");
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 4px;
   border: 2px solid #E5E5E5;
-  padding: 14px 12px 14px 12px;
   display: inline-block;
   margin-right: 8px;
+  box-sizing: border-box;
 }
 
 .button-big-cards:hover {
@@ -1092,15 +1096,15 @@ select:focus {
 }
 
 .button-list {
-  width: 16px;
-  height: 14px;
+  width: 48px;
+  height: 48px;
   display: inline-block;
   background-image: url("../images/svg/variant-list.svg");
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 4px;
   border: 2px solid #E5E5E5;
-  padding: 14px 12px 14px 12px;
+  box-sizing: border-box;
 }
 
 .button-list:hover {
@@ -1387,7 +1391,7 @@ select:focus {
 
 .subscription-catalog-text {
   margin: 0;
-  margin-bottom: 54px;
+  margin-bottom: 55px;
   font-size: 22px;
   line-height: 26px;
   color: #333333;
@@ -1508,6 +1512,7 @@ select:focus {
 }
 
 .modal {
+  width: 577px;
   position: relative;
   margin: auto;
   padding: 64px 70px;
@@ -1590,12 +1595,13 @@ select:focus {
 }
 
 .tooltip-toggle {
-  background-color: #83B3D3;
+  display: inline-block;
+  background-image: url("../images/svg/tooltip-icon.svg");
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
   border: none;
-  border-radius: 50%;
   padding: 0;
   margin: 0;
-  display: block;
   width: 26px;
   height: 26px;
 }
@@ -1604,6 +1610,14 @@ select:focus {
   width: 100%;
   height: 100%;
   display: inline-block;
+}
+
+.tooltip-toggle-text {
+  width: 2px;
+  height: 12px;
+  color: #FFFFFF;
+
+  font-weight: 700;
 }
 
 .tooltip-text {
@@ -1633,6 +1647,11 @@ select:focus {
   background-repeat: no-repeat;
   top: -9px;
   left: 122px;
+}
+
+.tooltip-toggle:hover + .tooltip-text,
+.tooltip-toggle:focus + .tooltip-text {
+  display: block;
 }
 
 .button-wrapper {
