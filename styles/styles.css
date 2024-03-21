@@ -553,7 +553,7 @@ body {
 
 .field::placeholder {
   font-size: 18px;
-  font-family: PT Sans;
+  font-family: "PT Sans", sans-serif
 }
 
 .newsletter-button {
@@ -916,7 +916,7 @@ body {
 }
 
 .apply {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -948,7 +948,7 @@ body {
 }
 
 .reset {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -1001,8 +1001,8 @@ body {
   margin-right: 130px;
 }
 
-select {
-  font-family: "PT Sans";
+.sorting-select-controls {
+  font-family: "PT Sans", sans-serif;
   border: 2px solid #e5e5e5;
   border-radius: 4px;
   font-size: 18px;
@@ -1863,7 +1863,7 @@ select:focus {
   outline: none;
   margin: 0;
   padding: 0;
-  font-family: PT Sans;
+  font-family: "PT Sans", sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
