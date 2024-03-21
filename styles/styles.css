@@ -1001,7 +1001,7 @@ body {
   margin-right: 130px;
 }
 
-select {
+.sorting-select-controls {
   font-family: "PT Sans", sans-serif;
   border: 2px solid #e5e5e5;
   border-radius: 4px;
